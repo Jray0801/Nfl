@@ -3,3 +3,5 @@
 export(nflverse_archive)
 export(nflverse_save)
 export(nflverse_upload)
+export(nflverse_build_player_db)
+export(nflverse_plot_position_counts)
