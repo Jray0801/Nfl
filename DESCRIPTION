@@ -1,9 +1,11 @@
 Package: nflversedata
 Title: nflverse data storage functions
 Version: 0.0.11
-Authors@R: 
+Authors@R:
     person("Tan", "Ho", , "tan@tanho.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8388-5155"))
+Author: Tan Ho [aut, cre]
+Maintainer: Tan Ho <tan@tanho.ca>
 Description: This repository holds automated data releases for nflverse
     projects and helper functions for managing the uploads.
 License: CC BY 4.0
@@ -25,7 +27,10 @@ Imports:
     piggyback (>= 0.1.4),
     purrr (>= 0.3.4),
     qs (>= 0.25.1),
-    rlang
+    rlang,
+    DBI,
+    RSQLite,
+    ggplot2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
